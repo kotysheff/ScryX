@@ -10,8 +10,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
-lib64/
 parts/
 sdist/
 var/
@@ -45,7 +43,6 @@ dmypy.json
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb
 
 # Flutter
 .flutter-plugins
@@ -75,7 +72,6 @@ gradle/
 # Media files
 *.exr
 *.png
-*.jpg
 *.jpeg
 *.tif
 *.tiff
@@ -114,3 +110,15 @@ Desktop.ini
 .vscode/
 *.swp
 *.swo
+
+# Obsidian
+.obsidian/
+.trash/
+.venv/
+
+# Other
+diploma/
+
+# Exception
+!docs/images/
+!pubspec.lock
