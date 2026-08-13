@@ -6,7 +6,10 @@ tags:
   - compression/dwaa
   - channels/multi
 software: NukeX v16.0v4, Blender, Cycles
-dependencies: —
+dependencies: OpenImageIO
+created_at: 2026-08-13
+author: kotysheff
+project_step: preparation
 ---
 ---
 ## Тестовый оракул: Многоканальный EXR-файл (010000.exr)
@@ -137,5 +140,6 @@ ViewLayer_Volume_Indirect.red
 
 --- 
 ## Заметки и особенности тестового случая
+
 * Сцена рендерилась в Blender с настройкой битности, равной `16-bit half float`;
 * При просмотре пикселей в дальнейшем использованием графического интерфейса будущего приложения стоит учитывать, что, возможно, будет автоматически применяться преобразование цветового пространства. Поэтому проверку пикселей стоит делать строго в RAW-буфере.
