@@ -118,7 +118,9 @@ Desktop.ini
 
 # Other
 diploma/
+dataset/*
 
 # Exception
 !docs/images/
 !pubspec.lock
+!dataset/.gitkeep
