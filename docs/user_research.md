@@ -11,7 +11,7 @@ created_at: 2026-08-13
 updated_at: 2026-08-17
 author: kotysheff
 project_step: preparation
----
+
 ---
 # Опрос пользователей: С какими проблемами реально сталкиваются художники каждый день?
 
