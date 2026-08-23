@@ -10,7 +10,7 @@ dependencies: OpenImageIO
 created_at: 2026-08-13
 author: kotysheff
 project_step: preparation
----
+
 ---
 ## Тестовый оракул: Многоканальный EXR-файл (010000.exr)
 
@@ -138,7 +138,7 @@ ViewLayer_Volume_Indirect.red
 | **B** | `0.08716`                 | `0.08706 – 0.08726` |
 | **A** | `1.00000`                 | `1.00000`           |
 
---- 
+---
 ## Заметки и особенности тестового случая
 
 * Сцена рендерилась в Blender с настройкой битности, равной `16-bit half float`;
