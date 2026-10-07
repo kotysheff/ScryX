@@ -1,6 +1,6 @@
 ---
 type: research
-status: in_progress
+status: review
 tags:
   - research
   - user-pain

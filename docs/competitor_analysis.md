@@ -1,6 +1,6 @@
 ---
 type: analysis
-status: in_progress
+status: review
 tags:
   - research/competitors
   - tools/viewers
@@ -10,7 +10,6 @@ tags:
   - soft/mrv2
 created_at: 2026-08-19
 updated_at: 2026-09-29
-
 ---
 # Сравнительный анализ существующих решений на рынке просмотрщиков
 

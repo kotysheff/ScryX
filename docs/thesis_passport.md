@@ -1,6 +1,6 @@
 ---
 type: project_specification
-status: in_progress
+status: review
 version: 1.1.0
 created_at: 2026-09-28
 updated_at: 2026-09-28
