@@ -4,6 +4,8 @@ ScryX is a desktop viewer and render-QC tool for CG/VFX image sequences. It is d
 
 > **Status:** exploratory prototype and development MVP. The application core and complete GUI are not finished yet.
 
+**Version**: 0.1.0.dev0
+
 ---
 ## Project structure
 
