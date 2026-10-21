@@ -1,0 +1,53 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "scryx"
+version = "0.1.0.dev0"
+description = """\
+Desktop viewer for CG/VFX image sequences with automated render QC. \
+Fast EXR/PNG/TIFF playback, AOV inspection, and per-frame defect detection \
+"""
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    {name = "kotysheff"}
+]
+license = {file = "LICENSE.md"}
+dependencies = [
+    "OpenImageIO>=3.0",
+    "Numpy>=2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.5",
+    "mypy>=1.0",
+    "pre-commit>=4.0",
+    "pytest>=8.0",
+]
+
+gui = [
+    "PySide6>=6.0",
+]
+
+spikes = [
+    "rich",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v"
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
