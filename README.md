@@ -13,7 +13,6 @@ ScryX is a desktop viewer and render-QC tool for CG/VFX image sequences. The fir
 .
 ├── README.md
 ├── LICENSE.md
-├── AGENTS.md                 # Development and learning workflow
 ├── pyproject.toml            # Project and dependency configuration
 ├── .gitignore
 ├── dataset/                 # Test sequences and corrupted samples
